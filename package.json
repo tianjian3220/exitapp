@@ -1,6 +1,6 @@
 {
   "name": "@tianjian3220/cordova-plugin-exitapp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a cordodva plugin for ios platform to exit app. The plugin is coded by object-c.",
   "cordova": {
     "id": "@tianjian3220/ordova-plugin-exitapp",
