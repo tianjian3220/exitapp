@@ -1,6 +1,6 @@
 {
-  "name": "cordova-plugin-exitapp",
-  "version": "1.0.0",
+  "name": "@tianjian3220/cordova-plugin-exitapp",
+  "version": "1.0.2",
   "description": "This is a cordodva plugin for ios platform to exit app. The plugin is coded by object-c.",
   "cordova": {
     "id": "cordova-plugin-exitapp",
@@ -8,10 +8,18 @@
       "ios"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tianjian3220/exitapp.git"
+  },
   "keywords": [
-    "ecosystem:cordova",
-    "cordova-ios"
+    "kill",
+    "cordova",
+    "kyle",
+    "cordova-ios",
+    "exitapp"
   ],
   "author": "kyle",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/tianjian3220/exitapp#readme"
 }
