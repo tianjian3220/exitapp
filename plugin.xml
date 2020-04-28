@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-exitapp" version="1.0.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>CDVExitApp</name>
+    <js-module name="CDVExitApp" src="www/CDVExitApp.js">
+        <clobbers target="cordova.plugins.CDVExitApp" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="CDVExitApp">
+                <param name="ios-package" value="CDVExitApp" />
+            </feature>
+        </config-file>
+        <!-- <head-file src="src/ios/CDVExitApp.h" /> -->
+        <source-file src="src/ios/CDVExitApp.m" />
+    </platform>
+</plugin>
